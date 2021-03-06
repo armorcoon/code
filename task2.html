@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<body>
+    <head>
+        <style>
+            table, form{
+                border: 5px solid black;
+                text-align: left;
+                width: 100%;
+            }
+            h2{
+                text-align:center
+            }
+        </style>
+    </head>
+<h2>Feedback Form</h2>
+<form action ="/action_page.php">
+ <table>
+     
+     <br><br> <label for ="fstudentname"> Student Name:</label>
+    <input type = "text" id="fstudentname" name = "fstudentname">
+    <br><br><label for="fid">Student ID:</label>
+    <input type="text" id ="fid" name="fid"><br>
+    <br> <label for="lemail">Student email:</label>
+    <input type="text" id = "lemail" name = "lemail"><br><br>
+
+
+    <h4>Rate the course</h4><br>
+
+    <input type = "radio" name = "quality" value="poor" >
+    <label for = "poor"> Poor</label><br>
+    <input type = "radio" name ="quality" value="Ok" >
+    <label for = "Ok"> ok</label><br>
+    <input type = "radio" name ="quality" value ="Good" >
+    <label for = "Good"> Good</label><br>
+    <br><br><input type="submit" value="Submit">
+    <input type="Reset" value="reset">
+    
+
+ </table>
+</form>
+</body>
+</html>
